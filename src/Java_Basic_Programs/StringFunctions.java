@@ -7,7 +7,7 @@ public class StringFunctions {
         String str2 = "Hello";                      // Reuses the "Hello" from the String Constant Pool (SCP)
         String str3 = new String("Hello");   // Creates a new object on the Object Area (OA)
 
-        // --------------- == checks reference equality, not content ---------------
+        // ------------------ Checks reference equality, not content ------------------
 
         System.out.println(str1 == str2);           // Both refer to the same object in the SCP
         //OUTPUT : true

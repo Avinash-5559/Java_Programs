@@ -14,6 +14,7 @@ public class PerfectNumber {
             if (num % i == 0) {
                 temp += i;
             }
+
         }
         if (num == temp) {
             System.out.println("\n" + num + " : is a Perfect Number.");

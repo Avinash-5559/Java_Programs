@@ -1,0 +1,37 @@
+package Java_Basic_Programs;
+
+public class NumPat5 {
+    public static void main(String[] args) {
+
+        int row = 9;
+        int str = 1;
+
+        System.out.println();
+
+        for (int i = 0; i < row; i++) {
+            int num = 1;
+            for (int j = 0; j < str; j++) {
+                System.out.print(num + " ");
+                num++;
+            }
+            System.out.println();
+            if (i < row / 2) {
+                str++;
+            } else {
+                str--;
+            }
+        }
+    }
+}
+
+/*
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+    1 2 3 4 5
+    1 2 3 4
+    1 2 3
+    1 2
+    1
+*/

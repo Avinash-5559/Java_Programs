@@ -38,9 +38,9 @@ public class ArmstrongNumber {
         }
 
         if (val == out) {
-            System.out.println("\n" + val + " : is a Palindrome Number");
+            System.out.println("\n" + val + " : is a Armstrong Number");
         } else {
-            System.out.println("\n" + val + " : is not a Palindrome Number");
+            System.out.println("\n" + val + " : is not a Armstrong Number");
         }
     }
 }
