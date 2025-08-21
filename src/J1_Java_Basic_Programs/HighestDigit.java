@@ -1,0 +1,24 @@
+package J1_Java_Basic_Programs;
+
+import java.util.Scanner;
+
+public class HighestDigit {
+    public static void main(String[] args) {
+
+        int max = 0;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\nEnter the Number : ");
+        int num = sc.nextInt();
+        int j = num;
+
+        while (num>0) {
+            int rem = num % 10;
+            if (rem > max) {
+                max = rem;
+            }
+            num /= 10;
+        }
+        System.out.println("\nHighest Digit of this number "+j+" is : "+max);
+    }
+}
