@@ -11,6 +11,6 @@ public class EC03_Checked {
         JVM knows that this may lead to file not found exception so telling to handle it.
         */
 
-        //FileInputStream fileInputStream = new FileInputStream("C://log.txt");
+        // FileInputStream fileInputStream = new FileInputStream("C://log.txt");
     }
 }
