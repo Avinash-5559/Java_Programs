@@ -1,5 +1,7 @@
 package J15_Exceptions;
 
+                    // Mostly prefer "try / catch / finally" instead of "throws"
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
