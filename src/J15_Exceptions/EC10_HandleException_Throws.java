@@ -1,6 +1,6 @@
 package J15_Exceptions;
 
-                    // Mostly prefer "try / catch" & "try / catch / finally" instead of "throws"
+// --------------- Mostly prefer "try / catch" & "try / catch / finally" instead of "throws" ---------------
 
 import java.io.FileInputStream;
 
