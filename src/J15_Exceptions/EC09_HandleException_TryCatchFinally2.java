@@ -2,7 +2,7 @@ package J15_Exceptions;
 
 import java.util.Scanner;
 
-public class EC09_Checked_TryCatchFinally2 {
+public class EC09_HandleException_TryCatchFinally2 {
     public static void main(String[] args) {
 
         Scanner sc = null;

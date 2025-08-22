@@ -1,6 +1,6 @@
 package J15_Exceptions;
 
-public class EC07_Checked_TryCatch4 {
+public class EC07_HandleException_TryCatch4 {
     public static void main(String[] args) {
 
         try {

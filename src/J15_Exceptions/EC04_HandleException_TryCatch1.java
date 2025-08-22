@@ -1,6 +1,6 @@
 package J15_Exceptions;
 
-public class EC04_Checked_TryCatch1 {
+public class EC04_HandleException_TryCatch1 {
     public static void main(String[] args) {
 
         System.out.println("1");

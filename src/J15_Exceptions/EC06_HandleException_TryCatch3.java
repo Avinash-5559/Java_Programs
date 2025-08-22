@@ -1,6 +1,6 @@
 package J15_Exceptions;
 
-public class EC06_Checket_TryCatch3 {
+public class EC06_HandleException_TryCatch3 {
     public static void main(String[] args) {
 
         int a = 0;
