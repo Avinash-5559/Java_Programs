@@ -49,7 +49,7 @@ public class Pattern20B {
             r = sc.nextInt();
         }
 
-        if (r != 0) {
+        if (r != 1) {
             System.out.println("\nThank You.");
         }
     }
