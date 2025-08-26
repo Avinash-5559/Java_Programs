@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs;
 
-public class InterviewProcessCorrect {
+public class JBP10_InterviewProcessCorrect {
     public static void main(String[] args) {
         short yop = 2020;
         byte per = 70;

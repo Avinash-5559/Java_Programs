@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs;
 
-public class InterviewProcessWrong {
+public class JBP09_InterviewProcessWrong {
     public static void main(String[] args) {
         byte per = 65, apti = 60, score = 80;
         short yop = 2015;

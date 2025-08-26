@@ -2,7 +2,7 @@ package J01_Java_Basic_Programs;
 
 import java.util.Scanner;
 
-public class HackerRankQ2 {
+public class JBP12_HackerRankQ2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

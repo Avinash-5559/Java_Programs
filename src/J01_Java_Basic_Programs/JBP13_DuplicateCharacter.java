@@ -2,7 +2,7 @@ package J01_Java_Basic_Programs;
 
 import java.util.Scanner;
 
-public class DuplicateCharacter {
+public class JBP13_DuplicateCharacter {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
