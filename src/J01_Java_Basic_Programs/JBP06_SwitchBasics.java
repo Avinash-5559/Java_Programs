@@ -2,7 +2,7 @@ package J01_Java_Basic_Programs;
 
 import java.util.Scanner;
 
-public class SwitchBasics {
+public class JBP06_SwitchBasics {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs;
 
-public class PrintF {
+public class JBP05_PrintF {
     public static void main(String [] args) {
         int num=9;
 

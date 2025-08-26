@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs;
 
-public class Date {
+public class JBP04_Date {
     public static void main(String [] args) {
         byte dt = 8;
         char mth = 'M';

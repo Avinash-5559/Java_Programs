@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs;
 
-public class DataTypes {
+public class JBP03_DataTypes {
     public static void main(String [] args) {
         byte month = 5;
         short year = 2025;

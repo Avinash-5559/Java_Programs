@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs;
 
-public class HelloWorld {
+public class JBP02_HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
   }

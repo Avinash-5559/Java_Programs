@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs;
 
-public class ATM {
+public class JBP07_ATM {
     public static void main(String[] args) {
         System.out.println("\n------Welcome to the ATM------");
         byte button=3;
