@@ -1,4 +1,4 @@
-package J01_Java_Basic_Programs;
+package J01_Java_Basic_Programs.Number_Programs;
 
 public class Sum {
     public static void main(String [] args) {
