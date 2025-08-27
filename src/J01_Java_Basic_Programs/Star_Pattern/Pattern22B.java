@@ -13,11 +13,11 @@ public class Pattern22B {
             System.out.print("\nEnter the Number of Rows : ");
             int row = sc.nextInt();
 
-            System.out.print("\nEnter the Number of Symbol : ");
+            System.out.print("\nEnter the Number of Symbol (ODD NUMBERS ONLY) : ");
             int str = sc.nextInt();
 
-            if (str % 2 == 0) {
-                System.out.println("\nPlease Enter Odd Numbers Only.");
+            if (str % 2 == 0 || str < 0) {
+                System.out.println("\n---------- PLEASE ENTER 'ODD NUMBERS WITH POSITIVE INTEGERS ONLY' for the Symbol ----------");
             } else {
 
                 System.out.print("\nEnter the Symbol : ");
