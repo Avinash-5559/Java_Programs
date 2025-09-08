@@ -1,6 +1,6 @@
 # Java Programs Practice
 
-This repository contains Java programs that I have practiced while learning different core concepts of Java. 
+This repository contains Java programs created for practicing different core concepts of Java.
 
 ## 📘 Topics Covered
 
