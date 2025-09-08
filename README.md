@@ -1,4 +1,4 @@
-Java Topics Covered
+**Java Topics Covered**
 
 Below is a list of Java topics covered in this repository:
 
