@@ -7,7 +7,7 @@ package J04_OOPs_Programs_Polymorphism;
 /*
     - Inheriting a method of Super Class, changing the implementation in the Sub Class is known as
       Method Overriding.
-    - It is achieve in Run Time Polymorphism.
+    - It is achieving in Run Time Polymorphism.
 */
 
 public class PO03_Father {
