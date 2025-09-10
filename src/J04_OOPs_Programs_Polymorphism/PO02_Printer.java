@@ -5,7 +5,7 @@ package J04_OOPs_Programs_Polymorphism;
 /*
     - When declaring multiple methods on the Same Class with Same Name but different parameters
       is known as Method Overloading.
-    - It is achieve in Compile Time Polymorphism.
+    - It is achieving in Compile Time Polymorphism.
 */
 
 public class PO02_Printer {
