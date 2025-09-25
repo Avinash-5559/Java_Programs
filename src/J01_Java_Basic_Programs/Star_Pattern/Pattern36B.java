@@ -6,7 +6,7 @@ public class Pattern36B {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int r =1;
+        int r = 1;
 
         while (r == 1) {
 
