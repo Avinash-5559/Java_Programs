@@ -52,26 +52,26 @@ This repository is a **learning/practice** collection of small Java programs use
 ## 🏗️ Project Structure
 ```bash
 Java_Programs/
-├─ .idea/                     # (optional) IntelliJ configuration (git-ignored)
+├─ .idea/                           # (optional) IntelliJ configuration (git-ignored)
 ├─ src/
-│  ├─ basics/                 # 01 Java Basic Programs
-│  ├─ oops/class_object/      # 02 Class & Object
-│  ├─ oops/inheritance/       # 03 Inheritance
-│  ├─ oops/polymorphism/      # 04 Polymorphism
-│  ├─ oops/encapsulation/     # 05 Encapsulation
-│  ├─ oops/abstraction/       # 06 Abstraction (abstract classes & interfaces)
-│  ├─ keywords/this/          # 07 `this`
-│  ├─ keywords/super/         # 08 `super`
-│  ├─ keywords/super_vs_this/ # 09 super vs this
-│  ├─ types/type_casting/     # 10 Type Casting
-│  ├─ access_modifiers/       # 11 Access Modifiers
-│  ├─ static/                 # 12 Static Programs
-│  ├─ enums/                  # 13 Enum
-│  ├─ wrapper/                # 14 Wrapper Class
-│  ├─ exceptions/             # 15 Exceptions
-│  ├─ generics/               # 16 Generics
-│  ├─ collections/            # 17 Collection Framework
-│  └─ threading/              # 18 Multi-Threading
+│  ├─ basics/                       # 01 Java Basic Programs
+│  ├─ oops/class_object/            # 02 Class & Object
+│  ├─ oops/inheritance/             # 03 Inheritance
+│  ├─ oops/polymorphism/            # 04 Polymorphism
+│  ├─ oops/encapsulation/           # 05 Encapsulation
+│  ├─ oops/abstraction/             # 06 Abstraction (abstract classes & interfaces)
+│  ├─ keywords/this/                # 07 `this`
+│  ├─ keywords/super/               # 08 `super`
+│  ├─ keywords/super_vs_this/       # 09 super vs this
+│  ├─ types/type_casting/           # 10 Type Casting
+│  ├─ access_modifiers/             # 11 Access Modifiers
+│  ├─ static/                       # 12 Static Programs
+│  ├─ enums/                        # 13 Enum
+│  ├─ wrapper/                      # 14 Wrapper Class
+│  ├─ exceptions/                   # 15 Exceptions
+│  ├─ generics/                     # 16 Generics
+│  ├─ collections/                  # 17 Collection Framework
+│  └─ threading/                    # 18 Multi-Threading
 └─ README.md
 ```
 Each folder contains small, focused `.java` files with examples of the respective concept.
