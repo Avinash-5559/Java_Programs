@@ -76,6 +76,9 @@ Java_Programs/
 ```
 Each folder contains small, focused `.java` files with examples of the respective concept.
 
+## 📌 Author
+👤 Avinash Sinha
+
 ---
 📝 This repository is created exclusively for **educational and practice use**.
 
