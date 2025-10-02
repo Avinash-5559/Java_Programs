@@ -75,3 +75,8 @@ Java_Programs/
 └─ README.md
 ```
 Each folder contains small, focused `.java` files with examples of the respective concept.
+
+---
+📝 This repository is created exclusively for **educational and practice use**.
+
+---
