@@ -1,7 +1,7 @@
 # Java Programs Practice
 
 ![Java](https://img.shields.io/badge/Java-11%2B-blue)
-![IntelliJ](https://img.shields.io/badge/IntelliJ-IDEA-0C4B33?logo=jetbrains)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-IDE-000000?logo=intellijidea&logoColor=white)
 ![OOP](https://img.shields.io/badge/OOPs-Concepts-orange)
 ![Collections](https://img.shields.io/badge/Collections-Framework-green)
 ![Multithreading](https://img.shields.io/badge/Multithreading-Concurrency-red)
