@@ -8,6 +8,10 @@
 ![Exceptions](https://img.shields.io/badge/Exceptions-Handling-yellow)
 ![Generics](https://img.shields.io/badge/Generics-Programming-lightgrey)
 
+---
+
+## 🗂️ Overview  
+
 This repository is a **learning/practice** collection of small Java programs used to understand and experiment with core Java concepts.
 
 ---
