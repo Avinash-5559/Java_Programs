@@ -80,6 +80,8 @@ Java_Programs/
 ```
 Each folder contains small, focused `.java` files with examples of the respective concept.
 
+---
+
 ## 📌 Author
 👤 Avinash Sinha
 
