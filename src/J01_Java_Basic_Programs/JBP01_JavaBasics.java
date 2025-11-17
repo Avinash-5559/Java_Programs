@@ -27,7 +27,7 @@ public class JBP01_JavaBasics {
         main                    → Special method where the Java program starts execution.
                                   i.e. “Program’s starting door.”
 
-        String\[] args          → Array of strings that stores command-line arguments passed to the program.
+        String[] args           → Array of strings that stores command-line arguments passed to the program.
                                   i.e. “Carries inputs from command line.”
 
         */

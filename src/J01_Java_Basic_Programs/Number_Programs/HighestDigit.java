@@ -12,13 +12,13 @@ public class HighestDigit {
         int num = sc.nextInt();
         int j = num;
 
-        while (num>0) {
+        while (num > 0) {
             int rem = num % 10;
             if (rem > max) {
                 max = rem;
             }
             num /= 10;
         }
-        System.out.println("\nHighest Digit of this number "+j+" is : "+max);
+        System.out.println("\nHighest Digit of this number " + j + " is : " + max);
     }
 }
