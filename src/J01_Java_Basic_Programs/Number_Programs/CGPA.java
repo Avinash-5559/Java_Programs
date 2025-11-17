@@ -11,5 +11,5 @@ public class CGPA {
 }
 
 /*
-Output : 6.253333
+    Output : 6.253333
 */

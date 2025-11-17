@@ -11,11 +11,11 @@ public class CountDigit {
         System.out.print("\nEnter the Number : ");
         int num = sc.nextInt();
 
-        while (num>0){
+        while (num > 0) {
             count++;
-            num/=10;
+            num /= 10;
         }
 
-        System.out.println("\nNumber of Digit is : "+count);
+        System.out.println("\nNumber of Digit is : " + count);
     }
 }

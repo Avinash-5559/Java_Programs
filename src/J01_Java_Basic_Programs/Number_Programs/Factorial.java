@@ -15,6 +15,6 @@ public class Factorial {
             out *= i;
         }
 
-        System.out.println("\nFactorial Number of "+num+" is "+out+".");
+        System.out.println("\nFactorial Number of " + num + " is " + out + ".");
     }
 }
