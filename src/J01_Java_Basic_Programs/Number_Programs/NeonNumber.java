@@ -8,18 +8,18 @@ public class NeonNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter the Number : ");
         int num = sc.nextInt();
-        int sqr = num*num;
+        int sqr = num * num;
         int temp = 0;
 
-        while (sqr>0){
-            int rem = sqr%10;
-            temp = temp+rem;
+        while (sqr > 0) {
+            int rem = sqr % 10;
+            temp = temp + rem;
             sqr /= 10;
         }
-        if (temp==num){
-            System.out.println("\n"+num+" : is a Neon Number.");
-        }else {
-            System.out.println("\n"+num+" : is not a Neon Number.");
+        if (temp == num) {
+            System.out.println("\n" + num + " : is a Neon Number.");
+        } else {
+            System.out.println("\n" + num + " : is not a Neon Number.");
         }
     }
 }

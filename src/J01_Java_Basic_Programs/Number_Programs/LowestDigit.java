@@ -12,14 +12,14 @@ public class LowestDigit {
         int num = sc.nextInt();
         int j = num;
 
-        while (num>0){
-            int rem = num%10;
-            if (rem < min){
+        while (num > 0) {
+            int rem = num % 10;
+            if (rem < min) {
                 min = rem;
             }
             num /= 10;
         }
 
-        System.out.println("\nHighest Digit of this number "+j+" is : "+min);
+        System.out.println("\nHighest Digit of this number " + j + " is : " + min);
     }
 }
