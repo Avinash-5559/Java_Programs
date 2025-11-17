@@ -23,15 +23,15 @@ public class Addition {
         System.out.println("\nSum of Two Number is : "+a);
     */
 
-        if (a<0 && b<0){
-            c=a+b;
-        } else if (a<0 || b<0) {
-            c=a+b;
-        } else{
-            c=a+b;
+        if (a < 0 && b < 0) {
+            c = a + b;
+        } else if (a < 0 || b < 0) {
+            c = a + b;
+        } else {
+            c = a + b;
         }
 
-        System.out.println("\nSum of Two Number is : "+c);
+        System.out.println("\nSum of Two Number is : " + c);
 
     }
 }
