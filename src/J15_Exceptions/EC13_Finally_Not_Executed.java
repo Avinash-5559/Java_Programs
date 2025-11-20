@@ -8,7 +8,7 @@ public class EC13_Finally_Not_Executed {
             System.out.println(a);
         }
 
-// This can only stop the execution of the finally block means finally block value is not print during the RunTime
+        // This can only stop the execution of the finally block means finally block value is not print during the RunTime
 
         // System.exit(0);
 
