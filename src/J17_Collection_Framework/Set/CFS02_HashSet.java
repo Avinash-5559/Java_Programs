@@ -16,5 +16,10 @@ public class CFS02_HashSet {
         set.add("Apple");
 
         System.out.println("HashSet List Items : " + set);
+
+        /*
+          OUTPUT :
+                    HashSet List Items : [null, Apple, 953656, Mango, WaterMelon, Orange]
+        */
     }
 }
