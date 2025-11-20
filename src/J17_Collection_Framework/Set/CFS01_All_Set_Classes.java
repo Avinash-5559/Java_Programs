@@ -77,5 +77,24 @@ public class CFS01_All_Set_Classes {
 
         System.out.println("Tree Set Integer Items  : " + ts2);
 
+        /*
+          OUTPUT :
+                    ----------------------------- HASHSET -----------------------------
+
+                    HashSet Items : [null, orange, Apple, WaterMelon, Orange]
+
+                    ------------------------- LINKED HASH SET -------------------------
+
+                    Linked Hash Set Items                   : [Orange, 789456, Apple, WaterMelon, null, watermelon]
+                    Does Linked Hash Set is Empty           : false
+                    Linked Hash Set contain this Element    : true
+                    Linked Hash Set Size                    : 6
+
+                    ---------------------------- TREE SET ----------------------------
+
+                    Tree Set String Items   : [Apple, Mango, Orange, WaterMelon, apple]
+                    Tree Set Integer Items  : [7635, 12686, 432386, 765656]
+        */
+
     }
 }
