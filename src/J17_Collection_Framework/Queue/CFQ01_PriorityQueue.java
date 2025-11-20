@@ -44,5 +44,21 @@ public class CFQ01_PriorityQueue {
         System.out.println("Delete the First Element of the Queue   : " + queue2.poll());
         System.out.println("Updated Queue Items                     : " + queue2);
 
+        /*
+          OUTPUT :
+
+            Queue Items                             : [Amit, Dutta, Dutta, Pramod, Sharma]
+            See First Element of the Queue          : Amit
+            Delete the First Element of the Queue   : Amit
+            Updated Queue Items                     : [Dutta, Pramod, Dutta, Sharma]
+
+            ------------------------------------------------------------------------------
+
+            Queue Items                             : [265656, 468956, 468956, 79531653]
+            See First Element of the Queue          : 265656
+            Delete the First Element of the Queue   : 265656
+            Updated Queue Items                     : [468956, 79531653, 468956]
+
+        */
     }
 }
