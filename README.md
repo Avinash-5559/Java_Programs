@@ -54,30 +54,63 @@ This repository is a **learning/practice** collection of small Java programs use
 ---
 
 ## 🏗️ Project Structure
+
 ```bash
 Java_Programs/
-├─ .idea/                           # (optional) IntelliJ configuration (git-ignored)
-├─ src/
-│  ├─ basics/                       # 01 Java Basic Programs
-│  ├─ oops/class_object/            # 02 Class & Object
-│  ├─ oops/inheritance/             # 03 Inheritance
-│  ├─ oops/polymorphism/            # 04 Polymorphism
-│  ├─ oops/encapsulation/           # 05 Encapsulation
-│  ├─ oops/abstraction/             # 06 Abstraction (abstract classes & interfaces)
-│  ├─ keywords/this/                # 07 `this`
-│  ├─ keywords/super/               # 08 `super`
-│  ├─ keywords/super_vs_this/       # 09 super vs this
-│  ├─ types/type_casting/           # 10 Type Casting
-│  ├─ access_modifiers/             # 11 Access Modifiers
-│  ├─ static/                       # 12 Static Programs
-│  ├─ enums/                        # 13 Enum
-│  ├─ wrapper/                      # 14 Wrapper Class
-│  ├─ exceptions/                   # 15 Exceptions
-│  ├─ generics/                     # 16 Generics
-│  ├─ collections/                  # 17 Collection Framework
-│  └─ threading/                    # 18 Multi-Threading
-└─ README.md
+│
+├── .idea/                                               # IntelliJ project configuration
+├── out/                                                 # Compiled output (auto-generated)
+│
+├── src/
+│   ├── J01_Java_Basic_Programs/                         # Basic Programs
+│   ├── J01_Java_Basic_Programs.Array_Programs/          # Array Programs
+│   ├── J01_Java_Basic_Programs.Character_Pattern/       # Character Pattern Programs
+│   ├── J01_Java_Basic_Programs.Number_Pattern/          # Number Pattern Programs
+│   ├── J01_Java_Basic_Programs.Number_Programs/         # Number Programs
+│   ├── J01_Java_Basic_Programs.Operator_Programs/       # Operator-based Programs
+│   ├── J01_Java_Basic_Programs.Star_Pattern/            # Star Pattern Programs
+│   ├── J01_Java_Basic_Programs.String_Programs/         # String Programs
+│   
+│   ├── J02_OOPs_Programs_ClassAndObject/                # OOPs – Class & Object
+│   ├── J03_OOPs_Programs_Inheritance/                   # OOPs – Inheritance
+│   ├── J04_OOPs_Programs_Polymorphism/                  # OOPs – Polymorphism
+│   ├── J05_OOPs_Programs_Encapsulation/                 # OOPs – Encapsulation
+│   ├── J06_OOPs_Programs_Abstraction/                   # OOPs – Abstraction
+│   
+│   ├── J07_this_Keyword/                                # `this` keyword
+│   ├── J08_super_Keyword/                               # `super` keyword
+│   ├── J09_super_Vs_this/                               # super vs this
+│   
+│   ├── J10_TypeCasting/                                 # Type Casting
+│   
+│   ├── J11_AccessModifier/                              # Access Modifiers
+│   ├── J11_AccessModifier.Criminal/                     # Access Modifier examples
+│   ├── J11_AccessModifier.Police/                       # Access Modifier examples
+│
+│   ├── J12_Static_Program/                              # Static keyword programs
+│
+│   ├── J13_ENUM/                                        # Enum examples
+│
+│   ├── J14_Wrapper_Class/                               # Wrapper Class Programs
+│
+│   ├── J15_Exceptions/                                  # Exception Handling
+│
+│   ├── J16_Generics/                                    # Generics in Java
+│
+│   ├── J17_Collection_Framework.List/                   # Collection Framework — List
+│   ├── J17_Collection_Framework.Map/                    # Collection Framework — Map
+│   ├── J17_Collection_Framework.Queue/                  # Collection Framework — Queue
+│   ├── J17_Collection_Framework.Set/                    # Collection Framework — Set
+│
+│   └── J18_Multi_Threading/                             # Multi-threading programs
+│
+├── Java_Programs.iml                                    # IntelliJ module file
+├── .gitignore
+|
+└── README.md
+
 ```
+
 Each folder contains small, focused `.java` files with examples of the respective concept.
 
 ---
