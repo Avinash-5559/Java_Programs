@@ -13,18 +13,18 @@ public class PalindromeNumber {
         int num = sc.nextInt();
         int val = num;
 
-        while (num>0){
+        while (num > 0) {
 
-            int rem = num%10;
-            out = out*10 + rem;
-            num = num/10;
+            int rem = num % 10;
+            out = out * 10 + rem;
+            num = num / 10;
 
         }
 
-        if (val == out){
-            System.out.println("\n"+val+" : is a Palindrome Number");
-        }else {
-            System.out.println("\n"+val+" : is not a Palindrome Number");
+        if (val == out) {
+            System.out.println("\n" + val + " : is a Palindrome Number");
+        } else {
+            System.out.println("\n" + val + " : is not a Palindrome Number");
         }
 
     }
