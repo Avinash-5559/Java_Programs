@@ -12,14 +12,14 @@ public class ReverseNumber {
         System.out.print("\nEnter the Number : ");
         int num = sc.nextInt();
 
-        while (num>0){
+        while (num > 0) {
 
-            int rem = num%10;
-            out = out*10 +rem;
-            num = num/10;
+            int rem = num % 10;
+            out = out * 10 + rem;
+            num = num / 10;
 
         }
 
-        System.out.println("\nReverse Number is : "+out);
+        System.out.println("\nReverse Number is : " + out);
     }
 }
