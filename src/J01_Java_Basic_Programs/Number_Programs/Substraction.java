@@ -24,14 +24,14 @@ public class Substraction {
 
     */
 
-        if(a<0 && b<0){
-            c=a-b;
-        } else if (a<0 || b<0) {
-            c=a-b;
+        if (a < 0 && b < 0) {
+            c = a - b;
+        } else if (a < 0 || b < 0) {
+            c = a - b;
         } else {
-            c=a-b;
+            c = a - b;
         }
 
-        System.out.println("\nSubtract of Two Number is : "+c);
+        System.out.println("\nSubtract of Two Number is : " + c);
     }
 }
