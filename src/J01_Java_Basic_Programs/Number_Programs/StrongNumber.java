@@ -21,9 +21,9 @@ public class StrongNumber {
             num /= 10;
         }
         if (temp == sum) {
-            System.out.println("\n"+temp + " : is a Strong Number.");
+            System.out.println("\n" + temp + " : is a Strong Number.");
         } else {
-            System.out.println("\n"+temp + " : is not a Strong Number.");
+            System.out.println("\n" + temp + " : is not a Strong Number.");
         }
     }
 }
