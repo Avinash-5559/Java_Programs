@@ -21,9 +21,9 @@ public class Swap {
 
         System.out.println("\n------OUTPUT VALUES------");
 
-        System.out.println("\nOutput of a value is : "+a);
+        System.out.println("\nOutput of a value is : " + a);
 
-        System.out.println("\nOutput of b value is : "+b);
+        System.out.println("\nOutput of b value is : " + b);
 
     }
 }
