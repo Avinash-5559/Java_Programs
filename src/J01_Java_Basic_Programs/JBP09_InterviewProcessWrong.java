@@ -2,6 +2,7 @@ package J01_Java_Basic_Programs;
 
 public class JBP09_InterviewProcessWrong {
     public static void main(String[] args) {
+
         byte per = 65, apti = 60, score = 80;
         short yop = 2015;
         if ((yop >= 2019 && yop <= 2021) && (per >= 60 && per <= 100)) {
@@ -29,5 +30,6 @@ public class JBP09_InterviewProcessWrong {
         } else {
             System.out.println("\nSorry. You didn't clear Technical.Please try Again next time");
         }
+
     }
 }

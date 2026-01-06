@@ -29,5 +29,6 @@ public class JBP11_HackerRankQ1 {
         System.out.println("Your Grade is "+grade);
 
         sc.close();
+
     }
 }

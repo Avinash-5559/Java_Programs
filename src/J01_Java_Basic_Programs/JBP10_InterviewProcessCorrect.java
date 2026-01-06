@@ -2,6 +2,7 @@ package J01_Java_Basic_Programs;
 
 public class JBP10_InterviewProcessCorrect {
     public static void main(String[] args) {
+
         short yop = 2020;
         byte per = 70;
         byte apti = 70, score = 60;
@@ -43,5 +44,6 @@ public class JBP10_InterviewProcessCorrect {
         } else {
             System.out.println("\nYour YOP is not Eligible for the Interview");
         }
+
     }
 }
