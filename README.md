@@ -1,12 +1,12 @@
 # Java Programs Practice
 
-![Java](https://img.shields.io/badge/Java-11%2B-blue)
+![Java](https://img.shields.io/badge/Java-11%2B-007396?logo=java&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-IDE-000000?logo=intellijidea&logoColor=white)
-![OOP](https://img.shields.io/badge/OOPs-Concepts-orange)
-![Collections](https://img.shields.io/badge/Collections-Framework-green)
-![Multithreading](https://img.shields.io/badge/Multithreading-Concurrency-red)
+![OOPs](https://img.shields.io/badge/OOPs-Concepts-FF9800)
 ![Exceptions](https://img.shields.io/badge/Exceptions-Handling-yellow)
-![Generics](https://img.shields.io/badge/Generics-Programming-lightgrey)
+![Generics](https://img.shields.io/badge/Generics-Type%20Safety-9E9E9E)
+![Collections](https://img.shields.io/badge/Collections-Framework-4CAF50)
+![Multithreading](https://img.shields.io/badge/Multithreading-Concurrency-E53935)
 
 ---
 
@@ -42,14 +42,15 @@ This repository is a **learning/practice** collection of small Java programs use
 ---
 
 ## ⚙️ Tech Stack
-- **Java 11+ (JDK)** — primary language and runtime  
-- **IntelliJ IDEA** — IDE for writing, running, and debugging Java programs  
-- **JVM** — to execute compiled `.class` files  
-- **Java Collections Framework (JCF)** — to practice lists, sets, maps, and queues  
-- **Multithreading & Concurrency APIs** — to explore parallel execution and synchronization  
-- **Exception Handling Mechanisms** — try-catch-finally, throw/throws  
-- **Generics** — type-safe data structures and methods  
-- **Enums & Wrapper Classes** — additional core features of Java  
+
+- **Java 11+ (JDK)** — primary language and runtime
+- **IntelliJ IDEA** — IDE for writing, running, and debugging Java programs
+- **JVM** — to execute compiled `.class` files
+- **Enums & Wrapper Classes** — additional core features of Java
+- **Exception Handling Mechanisms** — try-catch-finally, throw/throws
+- **Generics** — type-safe data structures and methods
+- **Java Collections Framework (JCF)** — to practice lists, sets, maps, and queues
+- **Multithreading & Concurrency APIs** — to explore parallel execution and synchronization
 
 ---
 
@@ -116,9 +117,11 @@ Each folder contains small, focused `.java` files with examples of the respectiv
 ---
 
 ## 📌 Author
+
 👤 Avinash Sinha
 
 ---
+
 📝 This repository is created exclusively for **educational and practice use**.
 
 ---
