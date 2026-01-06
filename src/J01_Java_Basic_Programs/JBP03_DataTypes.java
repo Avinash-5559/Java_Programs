@@ -2,6 +2,7 @@ package J01_Java_Basic_Programs;
 
 public class JBP03_DataTypes {
     public static void main(String [] args) {
+
         byte month = 5;
         short year = 2025;
         int pcode = 201309;
@@ -19,5 +20,6 @@ public class JBP03_DataTypes {
         System.out.println("Tax Value : "+tax);
         System.out.println("Grade :"+grade);
         System.out.println("Pass :"+pass);
+
     }
 }
