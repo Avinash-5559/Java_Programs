@@ -2,6 +2,7 @@ package J01_Java_Basic_Programs;
 
 public class JBP05_PrintF {
     public static void main(String [] args) {
+
         int num=9;
 
 /*
@@ -26,5 +27,6 @@ public class JBP05_PrintF {
         System.out.printf("%d x 8 = %d %n",num, num * 8);
         System.out.printf("%d x 9 = %d %n",num, num * 9);
         System.out.printf("%d x 10 = %d %n",num, num * 10);
+
     }
 }

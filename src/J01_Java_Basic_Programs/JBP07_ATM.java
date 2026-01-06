@@ -2,6 +2,7 @@ package J01_Java_Basic_Programs;
 
 public class JBP07_ATM {
     public static void main(String[] args) {
+
         System.out.println("\n------Welcome to the ATM------");
         byte button=3;
         int amt=20000;
@@ -39,5 +40,6 @@ public class JBP07_ATM {
             System.out.println("\nYou Entered Invalid Pin");
         }
         System.out.println("\nThank You Visit Again");
+
     }
 }

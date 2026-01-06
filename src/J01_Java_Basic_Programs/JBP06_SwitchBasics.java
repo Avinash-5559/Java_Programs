@@ -41,5 +41,6 @@ public class JBP06_SwitchBasics {
                     System.out.println("Sunday");
                     break;
             }
+
         }
     }
