@@ -31,5 +31,6 @@ public class JBP12_HackerRankQ2 {
         System.out.println("\nOutput : " + msg);
 
         sc.close();
+
     }
 }

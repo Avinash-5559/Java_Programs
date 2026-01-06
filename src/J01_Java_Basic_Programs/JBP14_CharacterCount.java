@@ -24,6 +24,7 @@ public class JBP14_CharacterCount {
                 System.out.println((char) (i + 'a') + " occurs " + freq[i] + " time" + (freq[i] > 1 ? "s" : ""));
             }
         }
+
     }
 }
 
