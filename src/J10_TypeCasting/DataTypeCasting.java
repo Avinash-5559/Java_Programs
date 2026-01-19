@@ -1,7 +1,7 @@
 package J10_TypeCasting;
 
 /*
----------------------------------------- DATA TYPE CASTING ----------------------------------------
+------------------------------------------------ DATA TYPE CASTING ------------------------------------------------
 
 1) Widening Type Casting :
     - Casting lower size of data type to any other higher size of data type is known as Widening Type Casting.
