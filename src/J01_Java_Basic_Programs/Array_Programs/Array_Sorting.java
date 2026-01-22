@@ -7,7 +7,7 @@ public class Array_Sorting {
 
         int[] numbers = {12, 34, 10, 1, 100, 3, 4, 32};
 
-        //------------------------- FOR LOOP -------------------------
+        //------------------------------ FOR LOOP ------------------------------
 
         System.out.print("\nBefore Sort : " + Arrays.toString(numbers));
 
@@ -24,7 +24,7 @@ public class Array_Sorting {
         System.out.println();
         System.out.println("\nAfter Sort : " + Arrays.toString(numbers));
 
-        //-------------------- FOR EACH LOOP --------------------
+        //------------------------- FOR EACH LOOP -------------------------
 
         /*
 
@@ -46,7 +46,7 @@ public class Array_Sorting {
 
         */
 
-        //----------------------------------- SHORTCUT -----------------------------------
+        //-------------------------------------- SHORTCUT --------------------------------------
 
         /*
 
