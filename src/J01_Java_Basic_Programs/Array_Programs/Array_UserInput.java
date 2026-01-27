@@ -29,7 +29,7 @@ public class Array_UserInput {
 
             } else {
 
-                System.out.println("\n--------------NUMBERS--------------");
+                System.out.println("\n-------------- NUMBERS --------------");
             }
         }
 
