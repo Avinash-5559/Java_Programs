@@ -25,7 +25,7 @@ public class Array_UserInput {
             }
             if (size == 1) {
 
-                System.out.println("\n--------------NUMBER--------------");
+                System.out.println("\n-------------- NUMBER --------------");
 
             } else {
 
