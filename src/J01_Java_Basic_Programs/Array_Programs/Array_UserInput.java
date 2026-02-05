@@ -14,7 +14,7 @@ public class Array_UserInput {
 
         if (size == 0) {
 
-            System.out.println("\n------There is no size of the ARRAY------");
+            System.out.println("\n------ There is no size of the ARRAY ------");
 
         } else {
 
