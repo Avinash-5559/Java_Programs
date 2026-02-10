@@ -11,6 +11,8 @@ public class Array_LowestValue {
                 min = numb[i];
             }
         }
+
         System.out.println("\nLowest Values is : " + min);
+
     }
 }
