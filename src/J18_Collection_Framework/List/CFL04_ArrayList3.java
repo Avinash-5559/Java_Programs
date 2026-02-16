@@ -1,4 +1,4 @@
-package J17_Collection_Framework.List;
+package J18_Collection_Framework.List;
 
 /*
         Collection - It is an Interface in JAVA.
