@@ -11,6 +11,8 @@ public class Array_HighestValue {
                 max = numb[i];
             }
         }
+
         System.out.println("\nHighest Value is : " + max);
+
     }
 }
