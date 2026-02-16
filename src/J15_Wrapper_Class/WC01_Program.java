@@ -1,4 +1,4 @@
-package J14_Wrapper_Class;
+package J15_Wrapper_Class;
 
 public class WC01_Program {
     public static void main(String[] args) {

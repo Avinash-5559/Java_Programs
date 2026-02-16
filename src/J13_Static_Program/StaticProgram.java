@@ -1,4 +1,4 @@
-package J12_Static_Program;
+package J13_Static_Program;
 
 //---------------------------------------- MAIN PROGRAM ----------------------------------------
 
