@@ -1,4 +1,4 @@
-package J17_Collection_Framework.Queue;
+package J18_Collection_Framework.Queue;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
