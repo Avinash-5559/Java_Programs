@@ -1,6 +1,4 @@
-package J15_Exceptions;
-
-import java.io.FileInputStream;
+package J16_Exceptions;
 
 public class EC03_Checked {
     public static void main(String[] args) {
