@@ -1,4 +1,4 @@
-package J15_Exceptions;
+package J16_Exceptions;
 
 public class EC01_MainProgram {
     public static void main(String[] args) {
