@@ -1,4 +1,4 @@
-package J13_ENUM;
+package J14_ENUM;
 
 public class EN02_Program {
     public static void main(String[] args) {
