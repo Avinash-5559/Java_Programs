@@ -1,4 +1,4 @@
-package J16_Generics;
+package J17_Generics;
 
 public class GN02_Generics2 {
     public static void main(String[] args) {

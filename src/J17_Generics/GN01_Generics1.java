@@ -1,4 +1,4 @@
-package J16_Generics;
+package J17_Generics;
 
     /*
       Instead of this type of program where different data type used make them one. Show the GN02_Generic2 Program
