@@ -20,9 +20,11 @@ abstract class Book {
     String price;
 
     public Book(String name_c, String author_c, String price_c) {
+
         this.name = name_c;
         this.author = author_c;
         this.price = price_c;
+
     }
 
     abstract void getDetails();
@@ -40,4 +42,5 @@ abstract class Book {
     void getDetails() {
         System.out.println(name + ", " + author + ", " + price);
     }
+
 }
