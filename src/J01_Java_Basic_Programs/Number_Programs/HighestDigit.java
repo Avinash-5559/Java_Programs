@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class HighestDigit {
     public static void main(String[] args) {
 
-        int max = 0;
+        int maximum = Integer.MIN_VALUE;            // int maximum = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter the Number : ");
-        int num = sc.nextInt();
-        int j = num;
+        int number = sc.nextInt();
+        int temp = number;
 
-        while (num > 0) {
-            int rem = num % 10;
-            if (rem > max) {
-                max = rem;
+        while (number > 0) {
+            int reminder = number % 10;
+            if (reminder > maximum) {
+                maximum = reminder;
             }
-            num /= 10;
+            number /= 10;
         }
-        System.out.println("\nHighest Digit of this number " + j + " is : " + max);
+        System.out.println("\nHighest Digit of this number " + temp + " is : " + maximum);
     }
 }

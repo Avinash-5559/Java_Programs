@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class LowestDigit {
     public static void main(String[] args) {
 
-        int min = 10;
+        int minimum = Integer.MAX_VALUE;           // int minimum = 10;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter the Number : ");
-        int num = sc.nextInt();
-        int j = num;
+        int number = sc.nextInt();
+        int temp = number;
 
-        while (num > 0) {
-            int rem = num % 10;
-            if (rem < min) {
-                min = rem;
+        while (number > 0) {
+            int reminder = number % 10;
+            if (reminder < minimum) {
+                minimum = reminder;
             }
-            num /= 10;
+            number /= 10;
         }
 
-        System.out.println("\nHighest Digit of this number " + j + " is : " + min);
+        System.out.println("\nHighest Digit of this number " + temp + " is : " + minimum);
     }
 }
