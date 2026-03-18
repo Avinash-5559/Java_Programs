@@ -5,27 +5,27 @@ import java.util.Scanner;
 public class LowestDigit_F_S {
     public static void main(String[] args) {
 
-        int min = 10;
-        int sec = 0;
+        int firstMin = Integer.MAX_VALUE;           // int firstMin = 10;
+        int secondMin = Integer.MAX_VALUE;          // int secondMin = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter the Number : ");
-        int num = sc.nextInt();
-        int temp = num;
+        int number = sc.nextInt();
+        int temp = number;
 
-        while (num > 0) {
-            int rem = num % 10;
-            if (rem < min) {
-                sec = min;
-                min = rem;
-            } else if ((rem < sec) && (rem != min)) {
-                sec = rem;
+        while (number > 0) {
+            int reminder = number % 10;
+            if (reminder < firstMin) {
+                secondMin = firstMin;
+                firstMin = reminder;
+            } else if ((reminder < secondMin) && (reminder != firstMin)) {
+                secondMin = reminder;
             }
-            num /= 10;
+            number /= 10;
         }
 
-        System.out.println("\nFirst Lowest Digit of " + temp + " is : " + min);
+        System.out.println("\nFirst Lowest Digit of " + temp + " is : " + firstMin);
 
-        System.out.println("\nSecond Lowest Digit of " + temp + " is : " + sec);
+        System.out.println("\nSecond Lowest Digit of " + temp + " is : " + secondMin);
     }
 }

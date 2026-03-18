@@ -1,4 +1,4 @@
-package J18_Multi_Threading;
+package J19_Multi_Threading;
 
 public class MT02_ThreadExample2 {
     public static void main(String[] args) {
