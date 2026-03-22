@@ -1,6 +1,6 @@
 package J01_Java_Basic_Programs.Number_Programs;
 
-public class OddAndEven {
+public class OddAndEven_1 {
     public static void main(String[] args) {
 
         System.out.print("\nEven Number : ");
