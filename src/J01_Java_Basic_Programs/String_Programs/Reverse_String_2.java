@@ -8,23 +8,58 @@ public class Reverse_String_2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("\nInput the String : ");
-        String input = sc.nextLine();
+        String name = sc.next();
 
-        String[] words = input.split(" ");
+        //=========================================== CHARACTER ARRAY ===========================================
 
-        System.out.print("\nOutput is : ");
+        char[] arr = name.toCharArray();
 
-        for (int i = words.length - 1; i >= 0; i--) {
-            System.out.print(words[i] + " ");
+        System.out.print("\nOutput String is : ");
+
+        for (int i = arr.length - 1; i >= 0; i--) {
+            System.out.print(arr[i]);
+            //System.out.print(name.charAt(i));
         }
+
         System.out.println();
+
+        //=========================================== STRING BUILDER ===========================================
+
+/*
+
+        StringBuilder n1 = new StringBuilder(name);
+
+        n1.reverse();
+
+        System.out.println();
+
+        System.out.println("Output String is : "+n1);
+
+*/
+
+        //=========================================== STRING BUFFER ===========================================
+
+/*
+
+        StringBuffer n2 = new StringBuffer(name);
+
+        n2.reverse();
+
+        System.out.println();
+
+        System.out.println("Output String is : "+n2);
+
+ */
+
     }
 }
 
-/* ------------------------------ OUTPUT ------------------------------
+/*
 
-    Input the String : Azam Amir Reza
+    ------------------------------ OUTPUT ------------------------------
 
-    Output is : Reza Amir Azam
+    Input the String : azam
+
+    Output String is : maza
 
 */
