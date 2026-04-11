@@ -1,58 +1,48 @@
 package J01_Java_Basic_Programs.String_Programs;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Reverse_String_1 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("\nInput the String : ");
-        String name = sc.next();
+        System.out.print("\nUser Input the value : ");
+        String str = sc.next();
 
-        //=========================================== CHARACTER ARRAY ===========================================
+        char[] charArray = str.toCharArray();
 
-        char[] arr = name.toCharArray();
+        System.out.println("\nCurrent Order of the String is : " + Arrays.toString(charArray));
 
-        System.out.print("\nOutput String is : ");
+        //=========================================== TWO POINTER APPROACH ===========================================
 
-        for (int i = arr.length - 1; i >= 0; i--) {
-            System.out.print(arr[i]);
+        int left = 0;
+        int right = charArray.length - 1;
+        char temp;
+
+        while (left < right) {
+            temp = charArray[left];
+            charArray[left] = charArray[right];
+            charArray[right] = temp;
+            left++;
+            right--;
         }
 
-        System.out.println();
-
-        //=========================================== STRING BUILDER ===========================================
-
-/*
-        StringBuilder n1 = new StringBuilder(name);
-
-        n1.reverse();
-
-        System.out.println();
-
-        System.out.println("Output String is : "+n1);
-
-*/
-        //=========================================== STRING BUFFER ===========================================
-
-/*
-        StringBuffer n2 = new StringBuffer(name);
-
-        n2.reverse();
-
-        System.out.println();
-
-        System.out.println("Output String is : "+n2);
-
- */
+        System.out.println("\nReverse Order of the String is : " + Arrays.toString(charArray));
 
     }
 }
 
-/* ------------------------------ OUTPUT ------------------------------
+/*
 
-    Input the String : azam
+    ------------------------------ OUTPUT ------------------------------
 
-    Output String is : maza
+    User Input the value : Hello
+
+    Current Order of the String is : [H, e, l, l, o]
+
+    Reverse Order of the String is : [o, l, l, e, H]
+
 */
