@@ -14,18 +14,19 @@ public class Reverse_String_3 {
 
         System.out.print("\nOutput is : ");
 
-        for (String word : words) {
-            String revWord = new StringBuilder(word).reverse().toString();
-            System.out.print(revWord + " ");
+        for (int i = words.length - 1; i >= 0; i--) {
+            System.out.print(words[i] + " ");
         }
         System.out.println();
     }
 }
 
-/* ------------------------------ OUTPUT ------------------------------
+/*
+
+    ------------------------------ OUTPUT ------------------------------
 
     Input the String : Azam Amir Reza
 
-    Output is : mazA rimA azeR
+    Output is : Reza Amir Azam
 
 */
