@@ -17,5 +17,6 @@ public class CountDigit {
         }
 
         System.out.println("\nNumber of Digit is : " + count);
+
     }
 }
