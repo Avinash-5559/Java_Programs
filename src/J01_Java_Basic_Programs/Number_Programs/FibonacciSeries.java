@@ -7,11 +7,15 @@ public class FibonacciSeries {
         System.out.print("\nFibonacci Series of First " + d + " Terms are : ");
 
         for (int i = 1; i <= d; i++) {
+
             System.out.print(a + " ");
             c = a + b;
             a = b;
             b = c;
+
         }
+
         System.out.println();
+
     }
 }
