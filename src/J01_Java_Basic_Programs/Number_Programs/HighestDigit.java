@@ -19,6 +19,8 @@ public class HighestDigit {
             }
             number /= 10;
         }
+
         System.out.println("\nHighest Digit of this number " + temp + " is : " + maximum);
+
     }
 }
