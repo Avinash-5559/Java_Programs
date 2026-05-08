@@ -21,5 +21,6 @@ public class LowestDigit {
         }
 
         System.out.println("\nHighest Digit of this number " + temp + " is : " + minimum);
+
     }
 }
