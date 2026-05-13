@@ -24,6 +24,7 @@ public class Multiply {
             }
 
             System.out.println("\nMultiply of Two Number is : " + temp);
+
         }
     }
 }
