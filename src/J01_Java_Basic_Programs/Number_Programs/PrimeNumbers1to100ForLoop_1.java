@@ -19,6 +19,7 @@ public class PrimeNumbers1to100ForLoop_1 {
                     if (prime) {
                         System.out.print(n+ " ");
                 }
+
             }
         }
     }
