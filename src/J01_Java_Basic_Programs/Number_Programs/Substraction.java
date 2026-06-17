@@ -33,5 +33,6 @@ public class Substraction {
         }
 
         System.out.println("\nSubtract of Two Number is : " + c);
+
     }
 }
